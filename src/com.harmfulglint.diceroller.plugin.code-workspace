@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../com.harmfulglint.diceroller.plugin"
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "."
+		}
+	]
+}

@@ -1,0 +1,171 @@
+{
+  "name": "DiceRoller",
+  "uuid": "com.harmfulglint.diceroller",
+  "version": "1.1.0",
+  "author": "HarmfulGlint",
+  "entry": "backend/plugin.cjs",
+  "description": "Multi-dice roller for Flexbar",
+  "sdk": {
+    "version": "1.0.0"
+  },
+  "software": {
+    "minimumVersion": "1.0.0"
+  },
+  "os": [
+    {
+      "platform": "mac",
+      "minimumVersion": "10.15"
+    },
+    {
+      "platform": "windows",
+      "minimumVersion": "10"
+    }
+  ],
+  "device": [
+    {
+      "name": "flexbar",
+      "version": "1.0.0"
+    }
+  ],
+  "keyLibrary": {
+    "title": "DiceRoller",
+    "style": {
+      "icon": "mdi mdi-dice-multiple"
+    },
+    "children": [
+      {
+        "title": "D4",
+        "tip": "Roll a D4",
+        "cid": "com.harmfulglint.diceroller.d4",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": ["windows", "mac"]
+        },
+        "style": {
+          "icon": "mdi mdi-dice-d4",
+          "width": 240
+        },
+        "data": {
+          "diceSides": "4",
+          "diceCount": "1",
+          "displayMode": "total"
+        }
+      },
+      {
+        "title": "D6",
+        "tip": "Roll a D6",
+        "cid": "com.harmfulglint.diceroller.d6",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": ["windows", "mac"]
+        },
+        "style": {
+          "icon": "mdi mdi-dice-d6",
+          "width": 240
+        },
+        "data": {
+          "diceSides": "6",
+          "diceCount": "1",
+          "displayMode": "total"
+        }
+      },
+      {
+        "title": "D8",
+        "tip": "Roll a D8",
+        "cid": "com.harmfulglint.diceroller.d8",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": ["windows", "mac"]
+        },
+        "style": {
+          "icon": "mdi mdi-dice-d8",
+          "width": 240
+        },
+        "data": {
+          "diceSides": "8",
+          "diceCount": "1",
+          "displayMode": "total"
+        }
+      },
+      {
+        "title": "D10",
+        "tip": "Roll a D10",
+        "cid": "com.harmfulglint.diceroller.d10",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": ["windows", "mac"]
+        },
+        "style": {
+          "icon": "mdi mdi-dice-d10",
+          "width": 240
+        },
+        "data": {
+          "diceSides": "10",
+          "diceCount": "1",
+          "displayMode": "total"
+        }
+      },
+      {
+        "title": "D12",
+        "tip": "Roll a D12",
+        "cid": "com.harmfulglint.diceroller.d12",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": ["windows", "mac"]
+        },
+        "style": {
+          "icon": "mdi mdi-dice-d12",
+          "width": 240
+        },
+        "data": {
+          "diceSides": "12",
+          "diceCount": "1",
+          "displayMode": "total"
+        }
+      },
+      {
+        "title": "D20",
+        "tip": "Roll a D20",
+        "cid": "com.harmfulglint.diceroller.d20",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": ["windows", "mac"]
+        },
+        "style": {
+          "icon": "mdi mdi-dice-d20",
+          "width": 240
+        },
+        "data": {
+          "diceSides": "20",
+          "diceCount": "1",
+          "displayMode": "total"
+        }
+      },
+      {
+        "title": "D100",
+        "tip": "Roll a D100",
+        "cid": "com.harmfulglint.diceroller.d100",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": ["windows", "mac"]
+        },
+        "style": {
+          "icon": "mdi mdi-dice-multiple",
+          "width": 240
+        },
+        "data": {
+          "diceSides": "100",
+          "diceCount": "1",
+          "displayMode": "total"
+        }
+      }
+    ]
+  }
+}
